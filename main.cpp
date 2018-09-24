@@ -33,6 +33,10 @@ int main()
     // Print inventory using public printInventory member function (method).
     vendingMachine.printInventory();
 
+    // Print menu
+
+    vendingMachine.printMenu();
+
 
 
     // Print a message just before exiting.

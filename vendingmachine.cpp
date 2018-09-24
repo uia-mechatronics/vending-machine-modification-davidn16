@@ -29,3 +29,15 @@ void VendingMachine::printInventory()
 {
     std::cout << "Number of soda types registered: " << sodaTypes_.size() << std::endl;
 }
+
+// Print menu of inventory
+
+void VendingMachine::printMenu()
+{
+   std::cout << "The menu is: ";
+   for (int ii = 0; ii < sodaTypes_.size(); ++ii )
+   {
+    std::cout << sodaTypes_.at(ii).name_ << " ";
+   }
+   std::cout << "" << std::endl;
+}
